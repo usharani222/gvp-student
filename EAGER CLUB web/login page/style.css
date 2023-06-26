@@ -1,0 +1,39 @@
+
+
+#Fline{
+    display: flex;
+    text-align: center;
+    
+}
+#matter{
+    margin-left: 500px;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 530px;
+    margin-right: 580px;
+    margin-top: 50px;
+} 
+#signup{
+    background-color: aqua;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 15px;
+    padding-bottom: 330px;
+    border: 3px solid black;
+    border-radius:20px;
+
+}
+#login{
+    margin-top:100px;
+    background-color: aqua;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 15px;
+    padding-bottom: 330px;
+    border: 2px solid black;
+    border-radius:20px;
+
+
+}

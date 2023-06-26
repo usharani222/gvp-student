@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+   
+}
+#body1{
+    /* background-image: url("./assects/mainpg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100vmin; */
+
+    background-image: url("./assects/mainpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-attachment: scroll;
+    /* background-attachment: scroll; */
+    background-color: #a63cc3 ;
+    
+
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color:#a63cc3 ;
+}
+#left_header{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    /* padding-top: 10px; */
+}
+#left_header img{
+    padding: 2px;
+}
+#left_header #links{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#left_header a{
+    padding-left: 25px;
+    color: white;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    
+}
+#left_header a:hover{
+    padding-left: 26px;
+    font-size: 21px;
+    text-decoration: #70aef0 underline;
+}
+#right_header button a{
+    /* font-size: 20px; */
+    color: white;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',"EXO 2";
+    font-weight: 600;
+
+}
+#right_header button{
+    border: 1px solid transparent;
+    background-color: #4f5379;
+    color: white;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',"EXO 2";
+    font-weight: 600;
+    margin-top:10px ;
+    margin-right: 10px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#right_header button:hover{
+    border: 1px solid transparent;
+    background-color: #70aef0;
+    color: rgb(226, 218, 218);
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',"EXO 2";
+    font-weight: 600;
+    margin-top:10px ;
+    margin-right: 10px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+/* main starts here */
+main{
+    align-content: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 40vh;
+    font-family: 'Big Shoulders Display', "teko";
+}
+#main{
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 25vh;
+    
+}
+#main #ec{
+    color: white;
+    display: flex;
+    font-size: 90px;
+    text-shadow: 
+    0 0 20px    #fbdf07,
+    0 0 40px    #fbdf07,
+    0 0 80px    #fbdf07,
+    0 0 120px    #fbdf07;
+}
+#main #title{
+    padding-left: 50px;
+    color: white;
+    display: flex;
+    font-size: 35px;
+    text-shadow: 
+    0 0 20px    white,
+    0 0 40px    white,
+    0 0 80px     white,
+    0 0 120px    white;
+}
+#main span{
+    color:#ff0000;
+    margin-left: 150px;
+    border: 1px solid transparent;
+    background-color: #6c7fc6;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    text-shadow: 
+    0 0 20px    #ffffff,
+    0 0 40px   #ff0000,
+    0 0 80px     #ff0000,
+    0 0 120px   #ff0000;
+
+}
+#main span:hover{
+    background-color: #70aef0;
+}
+#quote{
+    border: 1px solid transparent;
+    border-width: 100%;
+    background-color: #a63cc3 ;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-left: 15%;
+   font-family: sans-serif;
+   font-weight: 400;
+}
+/* nav{
+    width:100%;
+   height:100vh;
+} */
+img{
+    max-width: 100%;
+    max-height: 100vh;
+    
+}
+nav{
+    height:100vh ;
+    max-width: 100%;
+    background-color: #a63cc3;
+}
+nav{
+    background-image: url("./assects/mainpg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+}
+#format .for1{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+.for1 h4{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.for1 h1{
+    /* font-family: 'Sofia Sans Extra Condensed', sans-serif; */
+    color: white;
+    /* text-transform: uppercase; */
+    font-size: 44px;
+    /* padding-top: 30px; */
+
+}
+#format{
+    padding-top: 70px;
+    padding-left: 70px;
+}
+#format button{
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: #ffde59;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+#format button:hover{
+    border: 2px solid black;
+}
+
+footer{
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#400e32;
+    width: auto;
+    /* min-height: 10vh; */
+    max-height:20vh ;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+#leftfoot{
+    display: grid;
+}
+#centerfoot{
+    color: white;
+    
+}
+#leftfoot a{
+    color: white;
+    text-decoration: solid;
+}
+#rightfoot p{
+    font-family: monospace;
+    font-style: italic;
+    color: white;
+}
