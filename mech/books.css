@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2b2e4a;
+}
+main1
+{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+#right a
+{
+    justify-content: space-evenly;
+    margin-inline: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#right :hover
+{
+    color: aqua ;
+}
+#btn button
+{
+    padding: 10px 10px ;
+    border-radius: 10px ;
+    background-color: aqua;
+    color: rgb(18, 17, 17) ;
+    font-weight: 600;
+}
+#btn :hover
+{
+    color: crimson ;
+}
+#left{
+    display: flex;
+}
+h1{
+    height: 10vh;
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+    text-transform: uppercase;
+    background-color: #4573e8;
+    color: white;
+    padding-left: 600px;
+    padding-top: 15px;
+}
+section{
+    height: 150vh;
+    width: 100%;
+    background-color:#4573e8 ;   
+}
+h3{
+    padding-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+#top-line{
+    height: 2px;
+    color: white;
+}
+#bottom-line{
+    height: 2px;
+    color: white;
+}
+#upleft-book{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+#chemistry-bookname{
+    padding-left: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    font-size: larger;
+    
+    color: white;
+
+}
+
+
+#top-books{
+    display: flex;
+    justify-content: space-around;
+}
+
+#upright-book{
+    padding-top: 80px;
+    padding-right: 90px;
+}
+
+#maths-bookname{
+    padding-left: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+#downleft-book{
+    padding-top: 80px;
+    padding-left: 90px;
+}
+#english-bookname{
+    padding-top: 5px;
+    padding-left: 35px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#bottom-books{
+    display: flex;
+    justify-content: space-around;
+}
+#downright-book{
+    padding-top: 80px;
+    padding-right: 90px;
+}
+#c-bookname{
+    padding-left: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#middle-book{
+    padding-left: 45%;
+}
+#it-bookname{
+    padding-left: 45px;
+    padding-top: 1px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+footer{
+    height: 40vh;
+    background-color: coral;
+}
+#left-foot a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+}
+#left-pre{
+    padding-top: 80px;
+}
+footer{
+    display: flex;
+}
+#social-media{
+    padding-top: 5px;
+    padding-left: 300px;
+}
+#media-tag{
+    padding-top: 90px;
+    padding-left: 300px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+#eager-pre{
+    color: black;
+    padding-left: 100px;
+    padding-top: 90px;
+}
